@@ -47,4 +47,10 @@ form .submit input{
     padding: 8px 15px;
     margin-top: 10px;
     margin-bottom: 20px;
+    transition: all 0.3s
+}
+
+form .submit input:hover{
+    background: teal;
+    color: white;
 }
