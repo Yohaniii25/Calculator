@@ -51,6 +51,6 @@ form .submit input{
 }
 
 form .submit input:hover{
-    background: teal;
+    background: black;
     color: white;
 }
