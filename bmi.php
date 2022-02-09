@@ -65,22 +65,22 @@ function validation($data) {
     if (isset($_POST['submit'])){
         if ($bmipass >= 13.6 && $bmipass <= 18.5) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px ;margin-right:50px'> Low body weight. You need to gain weight by eating moderately.</span>";?>
-            <img src="./Images/h1.png" class="one"><?php
+            <img src=".\images\h1.png" class="one"><?php
         } elseif ($bmipass > 18.5 && $bmipass < 24.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> The standard of good health.</span>";?>
-            <img src="./Images/h2.png" class="two"><?php
+            <img src=".\images\h2.png" class="two"><?php
         } elseif ($bmipass > 25 && $bmipass < 29.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> Excess body weight. Exercise needs to reduce excess weight.</span>";?>
-            <img src="./Images/h3.png" class="three"><?php
+            <img src=".\images\h3.png" class="three"><?php
         } elseif ($bmipass > 30 && $bmipass < 34.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> The first stage of obesity. It is necessary to choose food and exercise.</span>";?>
-            <img src="./Images/h4.png" class="four"><?php
+            <img src=".\images\h4.png" class="four"><?php
         } elseif ($bmipass > 35 && $bmipass < 39.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> The second stage of obesity. Moderate diet and exercise are required.</span>";?>
-            <img src="./Images/h5.png" class="five"><?php
+            <img src=".\images\h5.png" class="five"><?php
         } elseif ($bmipass >= 40) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> Excess fat.<b style='color:#ed4337'> Fear of death</b>. Need a doctor advice.</span>";?>
-            <img src="./Images/h6.png" class="six"><?php
+            <img src=".\images\h6.png" class="six"><?php
         }
     } else {
         echo "";

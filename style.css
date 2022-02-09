@@ -29,6 +29,12 @@ h2{
     transform: translate(-50%,-50%);
 }
 
+form .section1, .section2{
+    color: black;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
 form .section1 input, .section2 input{
     width: 200px;
     border: 1px solid black;
@@ -59,4 +65,12 @@ form .submit input:hover{
 .pass{
     color: rgb(9, 13, 66);
     font-size: 18px;
+}
+
+.one, .two, .three, .four, .five, .six{
+    width: 90px;
+    height: 170px;
+    float: right;
+    margin-top: -115px;
+    margin-right: -20px;
 }
