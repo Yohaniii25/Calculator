@@ -10,4 +10,4 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <section class="wrapper">
