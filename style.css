@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: url(./images/maintaining-a-healthy-lifestyle.jpeg);
     font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
 }
 
 h2{
@@ -53,4 +54,9 @@ form .submit input{
 form .submit input:hover{
     background: black;
     color: white;
+}
+
+.pass{
+    color: rgb(9, 13, 66);
+    font-size: 18px;
 }
